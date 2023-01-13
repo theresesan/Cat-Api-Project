@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-primary-darkpink);
+  font-family: "Seymour One", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+img {
+  width: 800px;
+  height: 650px;
+  border-radius: 10%;
+  border: 3px solid var(--color-primary-grey);
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  width: 400px;
+  border-radius: 8px;
+  background-color: black;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: white;
+  font-family: "Seymour One", sans-serif;
+}
